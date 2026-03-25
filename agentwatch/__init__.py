@@ -1,0 +1,1 @@
+"""AgentWatch — Few-shot silent failure detection for AI agents."""
