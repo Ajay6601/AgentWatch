@@ -1,8 +1,8 @@
 # AgentWatch
 
-**Few-shot silent failure detection for AI agents — materialized views for natural language over production traces.**
+**Few-shot silent failure detection for AI agents materialized views for natural language over production traces.**
 
-AgentWatch implements the core classification engine behind AI agent observability platforms like [Raindrop](https://raindrop.ai). An engineer types a natural language description of a problem — *"agent is being lazy"* — and the system automatically trains a small, fast classifier that can scan every production trace to find where that problem occurs, how often, and who's affected.
+AgentWatch implements the core classification engine behind AI agent observability platforms like [Raindrop](https://raindrop.ai). An engineer types a natural language description of a problem  *"agent is being lazy"*  and the system automatically trains a small, fast classifier that can scan every production trace to find where that problem occurs, how often, and who's affected.
 
 ## The Problem
 
