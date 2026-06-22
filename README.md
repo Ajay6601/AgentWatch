@@ -6,7 +6,7 @@ AgentWatch implements the core classification engine behind AI agent observabili
 
 ## The Problem
 
-AI agents don't crash — they fail silently. A support agent that gives a confident wrong answer, forgets what the user said, or skips its tools entirely never throws an exception. The engineering team has zero visibility.
+AI agents don't crash they fail silently. A support agent that gives a confident wrong answer, forgets what the user said, or skips its tools entirely never throws an exception. The engineering team has zero visibility.
 
 The naive solution is to run every trace through GPT-4 and ask "does this trace have a problem?" But at 100M traces/day, that costs ~$10,000/day per issue. You can't afford it.
 
